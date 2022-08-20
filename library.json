@@ -1,0 +1,25 @@
+{
+  "name": "AmbientSecureESP32",
+  "version": "0.0.0",
+  "keywords": "esp32, communication",
+  "description": "HTTPS-powered Ambient (ambidata.io) library for ESP32",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/cat-in-136/AmbientSecureESP32.git"
+  },
+  "authors": [
+    {
+      "name": "@cat_in_136",
+      "url": "https://github.com/cat-in-136/",
+      "maintainer": true
+    }
+  ],
+  "exclude": [".github"],
+  "frameworks": "arduino",
+  "platforms": ["espressif32"],
+  "dependencies":
+  {
+    "bblanchon/ArduinoJson": "^6"
+  }
+}
