@@ -16,6 +16,7 @@
     }
   ],
   "exclude": [".github"],
+  "headers": ["AmbientSecureESP32.h"],
   "frameworks": "arduino",
   "platforms": ["espressif32"],
   "dependencies":
