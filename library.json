@@ -1,6 +1,6 @@
 {
   "name": "AmbientSecureESP32",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "keywords": "esp32, communication",
   "description": "HTTPS-powered Ambient (ambidata.io) library for ESP32",
   "repository":
