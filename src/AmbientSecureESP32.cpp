@@ -5,8 +5,8 @@
 
 #include <AmbientSecureESP32.h>
 
-#define LOGE(...) ESP_LOGE(AMBIENT_SECURE_NUM_PARAMS, __VA_ARGS__)
-#define LOGD(...) ESP_LOGE(AMBIENT_SECURE_NUM_PARAMS, __VA_ARGS__)
+#define LOGE(...) ESP_LOGE(AMBIENT_SECURE_ESP_LOG_TAG, __VA_ARGS__)
+#define LOGD(...) ESP_LOGD(AMBIENT_SECURE_ESP_LOG_TAG, __VA_ARGS__)
 
 static const char *ambient_keys[AMBIENT_SECURE_NUM_PARAMS] = {
     "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "lat", "lng", "created"};
